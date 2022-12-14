@@ -43,6 +43,10 @@ class Conf
     {
         return static::$databases['password'];
     }
+
+    static public function getDureeSession() {
+        return 3600;
+    }
 }
 
 ?>
