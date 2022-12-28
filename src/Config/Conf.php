@@ -47,6 +47,11 @@ class Conf
     static public function getDureeSession() {
         return 3600;
     }
+
+    public static function getAbsoluteURL()
+    {
+        return "http://localhost:8888/web/frontController.php";
+    }
 }
 
 ?>
