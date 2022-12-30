@@ -48,6 +48,7 @@ class Conf
         return 3600;
     }
 
+    // TODO: A changer lors de la publication du site
     public static function getAbsoluteURL()
     {
         return "http://localhost:8888/web/frontController.php";
