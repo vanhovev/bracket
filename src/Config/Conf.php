@@ -49,6 +49,7 @@ class Conf
     }
 
     // TODO: A changer lors de la publication du site
+    // TODO: Ne pas oublier de rajouter les .htaccess
     public static function getAbsoluteURL()
     {
         return "http://localhost:8888/web/frontController.php";
