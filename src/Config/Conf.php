@@ -52,7 +52,7 @@ class Conf
     // TODO: Ne pas oublier de rajouter les .htaccess
     public static function getAbsoluteURL()
     {
-        return "http://localhost:8888/web/frontController.php";
+        return "https://webinfo.iutmontp.univ-montp2.fr/~vanhovev/Bracket/web/frontController.php";
     }
 }
 
